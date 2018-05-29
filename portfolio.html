@@ -1,0 +1,237 @@
+<!doctype html>
+<!--[if lte IE 9]>     <html lang="en" class="no-focus lt-ie10 lt-ie10-msg"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-focus"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <title>Romain Bayette Portfolio</title>
+
+    <meta name="description" content="Portfolio Romain Bayette">
+    <meta name="author" content="pixelcave">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Romain Bayette Mon Portfolio">
+    <meta property="og:site_name" content="Portfolio">
+    <meta property="og:description" content="Ceci est mon Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- Icons -->
+    <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+    <!-- END Icons -->
+
+    <!-- Stylesheets -->
+    <!-- Codebase framework -->
+    <link rel="stylesheet" id="css-main" href="assets/css/codebase.min.css">
+
+    <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+    <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+    <!-- END Stylesheets -->
+</head>
+
+<body>
+
+<!-- Header -->
+<header id="page-header" class="bg-primary-dark">
+    <!-- Header Content -->
+    <div class="content-header">
+        <!-- Right Section -->
+        <div class="content-header-section">
+            <!-- Header Navigation -->
+            <!--
+            Desktop Navigation, mobile navigation can be found in #sidebar
+
+            If you would like to use the same navigation in both mobiles and desktops, you can use exactly the same markup inside sidebar and header navigation ul lists
+            If your sidebar menu includes headings, they won't be visible in your header navigation by default
+            If your sidebar menu includes icons and you would like to hide them, you can add the class 'nav-main-header-no-icons'
+            -->
+            <ul class="nav-main-header">
+                <li>
+                    <a class="active" href="index.html">
+                        <i class="si si-rocket"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a class="active" href="https://github.com/romainromss/snowtricks/tree/dev">
+                        <i class="si si-social-github"></i> Github
+                    </a>
+                </li>
+            </ul>
+            <!-- END Header Navigation -->
+
+            <!-- Toggle Sidebar -->
+            <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+            <button type="button" class="btn btn-circle btn-dual-secondary d-lg-none" data-toggle="layout" data-action="sidebar_toggle">
+                <i class="fa fa-navicon"></i>
+            </button>
+            <!-- END Toggle Sidebar -->
+        </div>
+        <!-- END Right Section -->
+    </div>
+    <!-- END Header Content -->
+
+    <!-- Header Search -->
+    <div id="page-header-search" class="overlay-header">
+        <div class="content-header content-header-fullrow">
+            <form>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <!-- Close Search Section -->
+                        <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                        <button type="button" class="btn btn-secondary px-15" data-toggle="layout" data-action="header_search_off">
+                            <i class="fa fa-times"></i>
+                        </button>
+                        <!-- END Close Search Section -->
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary px-15">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- END Header Search -->
+
+    <!-- Header Loader -->
+    <div id="page-header-loader" class="overlay-header bg-primary">
+        <div class="content-header content-header-fullrow text-center">
+            <div class="content-header-item">
+                <i class="fa fa-sun-o fa-spin text-white"></i>
+            </div>
+        </div>
+    </div>
+    <!-- END Header Loader -->
+</header>
+<!-- END Header -->
+
+
+<!-- Main Container -->
+<main  class="container-fluid" id="main-container">
+    <!-- Options Zoom In -->
+    <h2 class="content-heading">Mes projets</h2>
+    <div class="row items-push">
+        <div class="col-md-4 animated fadeIn">
+            <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
+                <img class="img-fluid options-item" src="assets/img/photos/chalets.png" alt="">
+                <div class="options-overlay bg-primary-dark-op">
+                    <div class="options-overlay-content">
+                        <h3 class="h4 text-white mb-5">Chalets et caviars </h3>
+                        <h4 class="h6 text-white-op mb-15">Premier projet, crée avec wordpress</h4>
+                        <a class="btn btn-sm btn-rounded btn-alt-success min-width-75" href="http://chaletsetcaviar.immo/">
+                            <i class="fa fa-thumbs-up"></i> Voir en ligne
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 animated fadeIn">
+            <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
+                <img class="img-fluid options-item" src="assets/img/photos/films.png" alt="">
+                <div class="options-overlay bg-primary-dark-op">
+                    <div class="options-overlay-content">
+                        <h3 class="h4 text-white mb-5">Les films en plein air</h3>
+                        <h4 class="h6 text-white-op mb-15">Il s'agit d'une maquette, bootstrap et material sont utilisés</h4>
+                        <a class="btn btn-sm btn-rounded btn-alt-success min-width-75" href="http://films.romainbayette.com">
+                            <i class="fa fa-thumbs-up"></i> Voir en ligne
+                        </a>
+                        <a class="btn btn-sm btn-rounded btn-alt-info min-width-75" href="https://github.com/romainromss/Films">
+                            <i class="fa fa-save"></i> Voir en détails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 animated fadeIn">
+            <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
+                <img class="img-fluid options-item" src="assets/img/photos/express.png" alt="">
+                <div class="options-overlay bg-primary-dark-op">
+                    <div class="options-overlay-content">
+                        <h3 class="h4 text-white mb-5">Express Food</h3>
+                        <h4 class="h6 text-white-op mb-15">Concevoir une solution technique adaptée, créer une bdd, ainsi que diagrammes</h4>
+                        <a class="btn btn-sm btn-rounded btn-alt-success min-width-75" href="http://expressfood.romainbayette.com">
+                            <i class="fa fa-thumbs-up"></i> Voir en détails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 animated fadeIn">
+            <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
+                <img class="img-fluid options-item" src="assets/img/photos/blog.png" alt="">
+                <div class="options-overlay bg-primary-dark-op">
+                    <div class="options-overlay-content">
+                        <h3 class="h4 text-white mb-5">Blog</h3>
+                        <h4 class="h6 text-white-op mb-15">Ce blog est en PHP, je me suis servis du pattern ADR, j'ai crée des middlewares, et je me suis servi de PHP-DI
+                            pour l'injection de dépendances</h4>
+                        <a class="btn btn-sm btn-rounded btn-alt-success min-width-75" href="http://romainbayette.com">
+                            <i class="fa fa-thumbs-up"></i> Voir en ligne
+                        </a>
+                        <a class="btn btn-sm btn-rounded btn-alt-info min-width-75" href="https://github.com/romainromss/BlogRefactor">
+                            <i class="fa fa-save"></i> Voir en détails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 animated fadeIn">
+            <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
+                <img class="img-fluid options-item" src="assets/img/photos/snowtricks.png" alt="">
+                <div class="options-overlay bg-primary-dark-op">
+                    <div class="options-overlay-content">
+                        <h3 class="h4 text-white mb-5">Snowtricks</h3>
+                        <h4 class="h6 text-white-op mb-15">Site communautaire pour Snowboarders, site crée avec Symfony4 et ADR</h4>
+                        <a class="btn btn-sm btn-rounded btn-alt-success min-width-75" href="">
+                            <i class="fa fa-thumbs-up"></i> WIP projet en cours
+                        </a>
+                        <a class="btn btn-sm btn-rounded btn-alt-info min-width-75" href="https://github.com/romainromss/snowtricks">
+                            <i class="fa fa-save"></i> Voir en détails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Options Zoom In -->
+</main>
+<!-- END Main Container -->
+
+<!-- Footer -->
+<footer id="page-footer" class="opacity-0">
+    <div class="content py-20 font-size-xs clearfix">
+        <div class="float-right">
+            Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="http://goo.gl/vNS3I" target="_blank">pixelcave</a>
+        </div>
+        <div class="float-left">
+            <a class="font-w600" href="https://goo.gl/po9Usv" target="_blank">Codebase 2.0</a> &copy; <span class="js-year-copy">2017</span>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+
+<!-- Codebase Core JS -->
+<script src="assets/js/core/jquery.min.js"></script>
+<script src="assets/js/core/bootstrap.bundle.min.js"></script>
+<script src="assets/js/core/jquery.slimscroll.min.js"></script>
+<script src="assets/js/core/jquery.scrollLock.min.js"></script>
+<script src="assets/js/core/jquery.appear.min.js"></script>
+<script src="assets/js/core/jquery.countTo.min.js"></script>
+<script src="assets/js/core/js.cookie.min.js"></script>
+<script src="assets/js/codebase.js"></script>
+
+<!-- Page JS Plugins -->
+<script src="assets/js/plugins/chartjs/Chart.bundle.min.js"></script>
+
+<!-- Page JS Code -->
+<script src="assets/js/pages/be_pages_dashboard.js"></script>
+
+</body>
+</html>
